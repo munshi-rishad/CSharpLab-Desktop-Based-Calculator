@@ -49,16 +49,8 @@ CSharpLab-Desktop-Based-Calculator/
 └── Screenshots/
 ```
 
-## Screenshots
+## Screenshot
 
-### New Design
+Dark theme with the calculation on top, a big answer, blue operators and a blue `=` button.
 
-Dark theme with the calculation history on top, a big answer, blue operators and a blue `=` button.
-
-![New Design](Screenshots/Calculator_New_Design.png)
-
-### Old Design
-
-The first version of the calculator.
-
-![Old Design](Screenshots/Calculator_Old_Design.png)
+<img src="Screenshots/Calculator.png" alt="Calculator" width="320">
