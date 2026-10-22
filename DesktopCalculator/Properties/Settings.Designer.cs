@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Class_Project.Properties
+namespace DesktopCalculator.Properties
 {
 
 

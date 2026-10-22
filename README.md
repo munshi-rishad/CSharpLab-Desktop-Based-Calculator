@@ -1,32 +1,64 @@
-# Desktop-Based-Calculator
+# Desktop-Based Calculator
 
-This is a C# project for performing basic mathematical calculations. It is developed as a desktop-based application using Windows Forms.
+A simple desktop calculator made with **C# Windows Forms** (.NET Framework 4.8) for the C# lab.
+It has a dark modern design, shows the full calculation above the answer, and also works with the keyboard.
 
 ## Features
 
-- Perform basic arithmetic calculations.
-- Addition, subtraction, multiplication, and division.
-- Simple and user-friendly calculator interface.
-- Clear and reset calculation functionality.
+- Addition, subtraction, multiplication and division.
+- Shows the calculation (for example `5 + 3 =`) above the answer.
+- Chain calculations: `2 + 3 × 4 =` works step by step.
+- Decimal numbers, percent (`%`), plus/minus (`±`) and backspace (`←`).
+- Clear error message for dividing by zero.
+- Keyboard support: numbers, `+ - * /`, `.`, `%`, `Enter` (=), `Backspace`, `Esc` (clear).
 
-## Setup Instructions
+## Requirements
 
-- Clone the repository to your local machine.
-- Open the solution in Visual Studio.
-- Build the project.
-- Run the application.
+- **Windows**
+- **Visual Studio 2019 or 2022** (Community edition is free) with the **.NET desktop development** workload –
+  download from [visualstudio.microsoft.com](https://visualstudio.microsoft.com/)
 
-## Usage
+## Clone the Project
 
-Once the application is running, you can use the calculator interface to perform basic mathematical calculations.
+```bash
+git clone https://github.com/munshi-rishad/CSharpLab-Desktop-Based-Calculator.git
+```
 
-## Desktop-Based Calculator - User Interface Screenshot
+## How to Run
 
-1. **Calculator Main Interface**  
-   ![Calculator Main Interface](Screenshots/Calculator_Main_Interface.png)
+1. Install Visual Studio and select **.NET desktop development** during setup.
+2. Open the cloned folder and double-click `DesktopCalculator.sln` (it opens in Visual Studio).
+3. Press **F5** (or click **Start**) to build and run.
+4. The calculator window opens in the middle of the screen.
 
-## How to Use
+> If Visual Studio asks for **.NET Framework 4.8 Developer Pack**, click the install link it shows, then open the project again.
 
-1. Clone the repository to your local machine:
-   ```bash
-   https://github.com/munshi-rishad/CSharpLab-Desktop-Based-Calculator.git
+## Project Structure
+
+```
+CSharpLab-Desktop-Based-Calculator/
+├── DesktopCalculator.sln              # open this in Visual Studio
+├── DesktopCalculator/
+│   ├── CalculatorForm.cs              # calculator logic (buttons, keyboard, math)
+│   ├── CalculatorForm.Designer.cs     # design: colors, buttons and their positions
+│   ├── CalculatorForm.resx
+│   ├── Program.cs                     # starts the app
+│   ├── App.config
+│   ├── DesktopCalculator.csproj
+│   └── Properties/
+└── Screenshots/
+```
+
+## Screenshots
+
+### New Design
+
+Dark theme with the calculation history on top, a big answer, blue operators and a blue `=` button.
+
+![New Design](Screenshots/Calculator_New_Design.png)
+
+### Old Design
+
+The first version of the calculator.
+
+![Old Design](Screenshots/Calculator_Old_Design.png)
