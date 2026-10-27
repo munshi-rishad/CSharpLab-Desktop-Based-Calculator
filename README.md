@@ -3,7 +3,7 @@
 A desktop calculator made with **C# Windows Forms** for the C# lab.
 It has a dark modern design, shows the full calculation above the answer and can also be used with the keyboard.
 
-**Semester:** Fall 2026-2027 (current semester)
+**Semester:** Fall 2026-2027
 
 ## Features
 
